@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "http://localhost:8000/api/v1";
+const URL = "https://article-backend-1.onrender.com/api/v1";
 const GET_ALL_ARTICLES = async () => {
   return axios
     .get(

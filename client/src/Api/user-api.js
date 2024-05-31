@@ -1,5 +1,5 @@
 import axios from "axios";
-const URL = "http://localhost:8000/api/v1";
+const URL = "https://article-backend-1.onrender.com/api/v1";
 const REGISTER_USER = async (data) => {
     console.log("user data",data)
   return axios
